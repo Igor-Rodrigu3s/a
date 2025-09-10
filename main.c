@@ -6,11 +6,17 @@ int main() {
     char genero;
     char nome[50];
 
-    idade = 20;
-    salario = 5800.5;
-    altura = 1.63;
-    genero = 'F';
-    strcpy(nome, "Maria Silva");
+    printf("Digite sua idade: ");
+    scanf("%i", &idade);
+    printf("Digite seu salario: ");
+    scanf("%lf", &salario);
+    printf("Digite seu altura: ");
+    scanf("%lf", &altura);
+    printf("Digite seu genero: ");
+    scanf(" %c", &genero);
+    printf("Digite seu nome: ");
+    scanf("%s", nome);
+
 
     printf("Idade = %d\n", idade);
     printf("Salario = %.2f\n", salario);
